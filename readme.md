@@ -1,3 +1,4 @@
+# Rdify
 A simple Chrome extension to forward open.spotify links over to [RDIO](http://rdio.com). Based on Eli Hornes [original chrome extention](https://github.com/elihorne/rdify).
 
 #### Usage
