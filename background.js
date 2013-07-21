@@ -39,11 +39,9 @@ function rdify() {
       // Detect if the page is an album or track
       if (type == 'track') {
         var title = resp.track.name;
-        console.log(title);
         window.location.href = rdiosearch + encodeURIComponent(title);
       } else if (type == 'album') {
         var name = resp.album.name;
-        console.log(name);
         window.location.href = rdiosearch + encodeURIComponent(name);
       }
     }
