@@ -48,7 +48,7 @@ function rdify() {
       }
     }
   };
-	xhr.send();
+  xhr.send();
 }
 
 rdify();
